@@ -89,7 +89,7 @@ export const EXPERIENCE = [
     n: "01",
     role: "Junior Software Engineer Intern",
     company: "Computer Generated Solutions (CGS)",
-    client: "Bangalore, India",
+    client: "Hyderabad, India",
     period: "Apr 2023 – Sep 2023",
     bullets: [
       "Worked in an enterprise software development environment following SDLC practices and agile workflows.",
