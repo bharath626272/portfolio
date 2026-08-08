@@ -10,8 +10,7 @@ export const PROFILE = {
   email: "mukthapurambharathkumarreddy@gmail.com",
   gmailComposeUrl: "https://mail.google.com/mail/?view=cm&fs=1&to=mukthapurambharathkumarreddy@gmail.com",
   phone: "+91 93984 52912",
-  resumeUrl:
-    "https://customer-assets-v7afamib.emergentagent.net/job_9a09f112-c7ed-4ae1-ac47-8138b7690761/artifacts/m74pjyg6_BHARATH%20RESUMEEEEEEEEEE.pdf",
+  resumeUrl: "/resume.pdf",
   socials: [
     { label: "GitHub", href: "https://github.com/bharath626272" },
     { label: "GitHub · Alt", href: "https://github.com/mukthapurambharath54-png" },
@@ -24,7 +23,7 @@ export const PROFILE = {
     "alive.",
   ],
   intro:
-    "Motivated MCA postgraduate crafting responsive web applications with React, JavaScript, Express and PostgreSQL. Six months in the trenches of an enterprise B2B platform. Now shipping side-projects at obsessive speed.",
+    "Motivated MCA postgraduate with internship experience in enterprise software development and hands-on expertise in building responsive web applications using React.js, JavaScript, HTML5, CSS3, Python, Express.js, PostgreSQL, SQL, Git, and Vercel. Experienced in REST API integration, responsive UI development, and eager to contribute as an Associate System Engineer.",
 };
 
 export const CHAPTERS = [
@@ -57,97 +56,90 @@ export const CHAPTERS = [
 export const SKILL_GROUPS = [
   {
     label: "Frontend",
-    items: ["React.js", "JavaScript ES6+", "HTML5", "CSS3", "Bootstrap", "Responsive UI"],
+    items: ["React.js", "JavaScript (ES6+)", "HTML5", "CSS3", "Bootstrap"],
   },
   {
     label: "Backend",
-    items: ["Node.js", "Express.js", "REST APIs", "Stored Procedures"],
+    items: ["Node.js", "Express.js", "REST APIs"],
   },
   {
-    label: "Databases",
+    label: "Database",
     items: ["PostgreSQL", "MS SQL Server", "SQL"],
   },
   {
-    label: "Languages",
-    items: ["Java", "JavaScript", "C#"],
+    label: "Programming",
+    items: ["Java", "Python", "JavaScript", "C#"],
   },
   {
-    label: "Tooling",
-    items: ["Git", "GitHub Actions", "Vercel", "VS Code", "Postman", "Visual Studio"],
+    label: "Python",
+    items: ["Python programming", "Data analysis fundamentals", "Scripting", "Data handling"],
   },
   {
-    label: "Foundations",
-    items: ["OOP", "SDLC", "Agile", "API Integration"],
+    label: "Tools",
+    items: ["Git", "GitHub", "GitHub Actions", "Vercel", "VS Code", "Postman", "Eclipse", "Visual Studio", "Wireshark", "Kali Linux", "Nmap"],
+  },
+  {
+    label: "Core Concepts",
+    items: ["OOP", "SDLC", "API Integration", "Database Management"],
   },
 ];
 
 export const EXPERIENCE = [
   {
     n: "01",
-    role: "Junior Software Engineer",
-    company: "Blue Cherry B2B — Enterprise Marketplace",
-    client: "CGS · New York City",
-    period: "2023",
-    bullets: [
-      "Contributed to a B2B marketplace supporting buyer & seller flows.",
-      "Built frontend enhancements and UI features against C# / WPF / MS SQL services.",
-      "Paired with senior engineers to resolve bugs and improve usability.",
-    ],
-    stack: ["React", "JavaScript", "C#", "WPF/XAML", "SQL Server"],
-  },
-  {
-    n: "02",
-    role: "Junior Software Engineer — Intern",
+    role: "Junior Software Engineer Intern",
     company: "Computer Generated Solutions (CGS)",
     client: "Bangalore, India",
     period: "Apr 2023 – Sep 2023",
     bullets: [
-      "Worked inside enterprise SDLC & agile workflows.",
-      "Shipped frontend features in JavaScript / HTML / CSS / React.",
-      "Integrated modules with backend services and MS SQL Server.",
-      "Wrote SQL queries, stored procedures and functions; participated in code review.",
+      "Worked in an enterprise software development environment following SDLC practices and agile workflows.",
+      "Contributed to frontend application development using JavaScript, HTML, CSS, and React based UI concepts.",
+      "Assisted in integrating application modules with backend services and MS SQL Server databases.",
+      "Worked with REST APIs, SQL queries, stored procedures, and functions for data handling.",
+      "Collaborated with senior developers to debug issues and implement feature enhancements.",
+      "Participated in testing activities, code reviews, and enterprise application workflows.",
     ],
-    stack: ["React", "JavaScript", "REST", "MS SQL", "Git"],
+    stack: ["React.js", "JavaScript", "HTML", "CSS", "REST APIs", "MS SQL Server", "Git"],
   },
 ];
 
 export const PROJECTS = [
   {
     n: "01",
-    title: "Zenmed",
-    kicker: "React business website",
+    title: "ZenMade",
+    kicker: "React Business Website",
     year: "2024",
-    tags: ["React", "Vercel", "Responsive"],
-    href: "https://www.zenmed.in/",
+    tags: ["React.js", "JavaScript", "HTML", "CSS", "Vercel", "Render"],
+    href: "https://zenmade.vercel.app/",
     repo: "https://github.com/bharath626272/zenmade",
     blurb:
-      "A responsive marketing website built with a reusable component system, optimized for weight and legibility across breakpoints.",
+      "Developed a modern responsive website using React.js. Built reusable components and optimized responsive layouts. Deployed using GitHub and Vercel.",
     image:
       "https://images.unsplash.com/photo-1618004652321-13a63e576b80?w=1600&auto=format&fit=crop&q=80",
   },
   {
     n: "02",
     title: "Zenex",
-    kicker: "Production client site",
+    kicker: "Responsive React Website",
     year: "2024",
-    tags: ["React", "JS", "Vercel"],
+    tags: ["React.js", "JavaScript", "HTML", "CSS", "Vercel", "Render"],
     href: "https://client-website-eee-tau.vercel.app/",
     repo: "https://github.com/mukthapurambharath54-png/client-website",
     blurb:
-      "A production-ready React site delivered for a real client — reusable UI, deployment pipeline, and edge-hosted on Vercel.",
+      "Developed a production-ready React website for a client. Implemented responsive UI and reusable components. Managed deployment with GitHub and Vercel.",
     image:
       "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=1600&auto=format&fit=crop&q=80",
   },
   {
     n: "03",
     title: "Brain Tumor Analysis",
-    kicker: "Medical image classification",
+    kicker: "Medical Image Classification",
     year: "2023",
-    tags: ["MATLAB", "Image Processing"],
+    tags: ["MATLAB", "Python", "Image Processing"],
     href: "#",
     repo: "#",
     blurb:
-      "Classification of CT scans into normal / tumor using classical image-processing pipelines. An academic project that taught me discipline over abstractions.",
+      "Developed a medical image classification system using image processing techniques to classify CT scan images into normal and tumor categories.",
     image:
       "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=1600&auto=format&fit=crop&q=80",
   },
@@ -155,29 +147,42 @@ export const PROJECTS = [
 
 export const EDUCATION = [
   {
-    degree: "Master of Computer Applications",
+    degree: "Master of Computer Applications (MCA)",
     school: "Atria Institute of Technology, Bangalore",
     period: "Jan 2024 – Feb 2026",
-    score: "CGPA 8.0",
+    score: "CGPA: 8.0",
   },
   {
-    degree: "B.Sc. — Renewable Energy & Computer Science",
+    degree: "Bachelor of Science (Renewable Energy & Computer Science)",
     school: "Jain University, Bangalore",
     period: "Jun 2019 – Jan 2023",
-    score: "CGPA 7.4",
+    score: "CGPA: 7.4",
   },
   {
     degree: "Intermediate (10+2)",
     school: "Sri Chaitanya Junior College, Tirupati",
-    period: "2016 – 2018",
+    period: "Mar 2016 – Apr 2018",
     score: "88.1%",
   },
   {
-    degree: "Secondary School",
+    degree: "SSC",
     school: "Harish Residential School, Anantapur",
-    period: "2015 – 2016",
-    score: "CGPA 9.5",
+    period: "Academic Year 2015 – 2016",
+    score: "CGPA: 9.5",
   },
+];
+
+export const ACHIEVEMENTS = [
+  "Organized annual day and technical events in college.",
+  "Participated in sports and essay competitions.",
+  "Continuously learning frontend and full-stack web development technologies.",
+];
+
+export const STRENGTHS = [
+  "Analytical and problem-solving abilities",
+  "Quick learner with adaptability to new technologies",
+  "Effective communication and collaboration skills",
+  "Team-oriented mindset and ownership mentality",
 ];
 
 export const NAV = [
@@ -187,3 +192,4 @@ export const NAV = [
   { label: "Craft", href: "#craft", n: "03" },
   { label: "Contact", href: "#contact", n: "04" },
 ];
+
